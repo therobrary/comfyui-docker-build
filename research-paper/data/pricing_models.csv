@@ -1,0 +1,11 @@
+pricing_model,tool_name,monthly_cost,usage_limit,enterprise_tier,api_access,behavioral_impact_score
+unlimited,GitHub Copilot Individual,$10,unlimited,no,limited,2.1
+per_seat,GitHub Copilot Enterprise,$19,unlimited,yes,full,3.4
+freemium,Amazon CodeWhisperer,$0-19,50/month_free,yes,limited,4.2
+usage_based,OpenAI API,variable,$0.002/1k_tokens,yes,full,5.8
+hybrid,Claude for Work,$20-25,varies,yes,full,3.7
+freemium,Tabnine,$0-12,limited_free,yes,limited,3.9
+unlimited,Cursor,$20,unlimited,yes,full,2.3
+usage_based,Anthropic API,variable,$0.25/1k_tokens,yes,full,6.1
+per_seat,Microsoft Copilot,$30,unlimited,yes,limited,3.2
+freemium,Codeium,$0-12,unlimited_free,yes,limited,2.8

@@ -1,0 +1,13 @@
+metric,unlimited_users,metered_users,percentage_change,confidence_level
+daily_interactions,42.3,28.7,-32.2,0.85
+query_length_avg,127,203,59.8,0.92
+experimental_usage_pct,58.2,23.1,-60.3,0.78
+batch_processing_pct,12.4,38.9,213.7,0.88
+external_research_time,8.2,14.7,79.3,0.81
+peer_consultation_freq,2.1,4.3,104.8,0.76
+cognitive_load_score,3.2,5.8,81.3,0.83
+anxiety_level_score,2.1,4.7,123.8,0.79
+productivity_short_term,8.4,7.1,-15.5,0.87
+productivity_long_term,8.6,7.8,-9.3,0.72
+innovation_score,7.2,4.9,-31.9,0.84
+learning_engagement,6.8,4.2,-38.2,0.73

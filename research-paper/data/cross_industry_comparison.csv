@@ -1,0 +1,11 @@
+industry,service_type,usage_reduction_pct,adaptation_time_weeks,conservation_persistence_pct,cognitive_load_increase
+ai_tools,development_assistance,31.5,8.2,75.3,45.2
+cloud_computing,serverless_functions,28.3,6.7,68.9,38.7
+telecommunications,mobile_data,35.7,4.1,82.4,29.3
+utilities,electricity,22.1,12.3,91.2,15.8
+transportation,taxi_services,26.8,2.1,54.7,22.1
+cloud_computing,api_services,33.2,5.9,71.8,41.5
+utilities,water_usage,18.9,16.7,88.5,12.4
+telecommunications,voice_minutes,29.4,3.8,79.1,25.7
+cloud_computing,storage_services,25.6,8.1,64.2,35.9
+transportation,ride_sharing,31.8,1.9,48.3,28.6

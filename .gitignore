@@ -1,0 +1,26 @@
+# Build artifacts
+*.log
+*.tmp
+/tmp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker build context (keep our docker files)
+!Dockerfile
+!docker-compose.yml
+
+# Keep research paper content
+!research-paper/
