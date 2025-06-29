@@ -2,12 +2,12 @@
 
 ## ComfyUI Docker Deployment with NVIDIA Support
 
-This Docker setup provides ComfyUI v0.3.42 with NVIDIA CUDA 12.4 support, including ComfyUI Manager and Better Previews functionality.
+This Docker setup provides ComfyUI v0.3.42 with NVIDIA CUDA 12.6 support, including ComfyUI Manager and Better Previews functionality.
 
 ## Features
 
 - **ComfyUI v0.3.42**: The latest stable version
-- **NVIDIA CUDA 12.4**: Full GPU acceleration support
+- **NVIDIA CUDA 12.6**: Full GPU acceleration support
 - **ComfyUI Manager**: Pre-installed for easy node management
 - **Better Previews**: Enabled with auto preview method
 - **Persistent Storage**: Models, inputs, and outputs are stored on the host
@@ -16,7 +16,7 @@ This Docker setup provides ComfyUI v0.3.42 with NVIDIA CUDA 12.4 support, includ
 
 - Docker and Docker Compose installed
 - NVIDIA Docker runtime (nvidia-docker2)
-- NVIDIA GPU with CUDA 12.4 compatible drivers
+- NVIDIA GPU with CUDA 12.6 compatible drivers
 
 ## Installation
 
@@ -107,7 +107,7 @@ Available options:
 ### GPU not detected
 ```bash
 # Check if NVIDIA runtime is available
-docker run --rm --gpus all nvidia/cuda:12.4.0-base-ubuntu22.04 nvidia-smi
+docker run --rm --gpus all nvidia/cuda:12.6.3-base-ubuntu24.04 nvidia-smi
 ```
 
 ### Permission issues

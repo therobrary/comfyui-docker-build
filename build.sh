@@ -2,7 +2,7 @@
 
 # Build script for ComfyUI Docker image
 
-echo "Building ComfyUI Docker image with NVIDIA CUDA 12.4 support..."
+echo "Building ComfyUI Docker image with NVIDIA CUDA 12.6 support..."
 
 # Create necessary directories
 mkdir -p models/checkpoints models/vae models/loras models/embeddings models/controlnet models/clip models/unet models/upscale_models
