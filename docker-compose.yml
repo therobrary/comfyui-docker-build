@@ -3,7 +3,7 @@ version: '3.8'
 services:
   comfyui:
     build: .
-    image: comfyui:v0.3.42-cuda12.4
+    image: comfyui:v0.3.42-cuda12.6
     container_name: comfyui
     ports:
       - "8188:8188"

@@ -1,5 +1,5 @@
-# Use NVIDIA CUDA 12.4 base image with Ubuntu 22.04
-FROM nvidia/cuda:12.4.0-cudnn-runtime-ubuntu22.04
+# Use NVIDIA CUDA 12.6 base image with Ubuntu 24.04
+FROM nvidia/cuda:12.6.3-cudnn-runtime-ubuntu24.04
 
 # Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive
@@ -51,8 +51,8 @@ RUN git clone https://github.com/comfyanonymous/ComfyUI.git /app/ComfyUI && \
 # Set ComfyUI as working directory
 WORKDIR /app/ComfyUI
 
-# Install PyTorch with CUDA 12.4 support
-RUN pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+# Install PyTorch with CUDA 12.6 support
+RUN pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 
 # Install ComfyUI requirements
 RUN pip install -r requirements.txt
