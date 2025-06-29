@@ -1,4 +1,4 @@
-# ComfyUI build to support The Robrary
+# ComfyUI build to support The Robrary: A Blog about whatever I want.
 
 ## ComfyUI Docker Deployment with NVIDIA Support
 
