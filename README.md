@@ -38,6 +38,23 @@ sudo systemctl restart docker
 
 ## Quick Start
 
+### Option 1: Using Prebuilt Image (Recommended)
+
+1. Clone this repository:
+```bash
+git clone <your-repo-url>
+cd comfyui-docker
+```
+
+2. Start ComfyUI using the prebuilt image:
+```bash
+docker compose -f docker-compose.prebuilt.yml up -d
+```
+
+3. Access ComfyUI at: http://localhost:8188
+
+### Option 2: Building Locally
+
 1. Clone this repository:
 ```bash
 git clone <your-repo-url>
@@ -61,13 +78,27 @@ docker-compose up -d
 ```
 .
 ├── Dockerfile
-├── docker-compose.yml
+├── docker-compose.yml          # Local build version
+├── docker-compose.prebuilt.yml # Prebuilt image version
 ├── README.md
 ├── models/           # Your AI models (persistent)
 ├── input/            # Input images (persistent)
 ├── output/           # Generated images (persistent)
 └── custom_nodes/     # Custom nodes directory (persistent)
 ```
+
+## Prebuilt vs Local Build
+
+**Prebuilt Image** (`docker-compose.prebuilt.yml`):
+- Faster startup - no build time required
+- Uses the latest image from GitHub Container Registry
+- Automatically updated when new versions are released
+- Recommended for most users
+
+**Local Build** (`docker-compose.yml`):
+- Builds the image locally from source
+- Useful for development or custom modifications
+- Takes longer to start initially due to build process
 
 ## Managing Models
 

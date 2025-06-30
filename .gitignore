@@ -1,0 +1,15 @@
+# Model directories - these contain large AI models that shouldn't be committed
+models/
+input/
+output/
+custom_nodes/
+
+# ComfyUI specific files
+extra_model_paths.yaml
+
+# Docker volumes and runtime files
+.dockerignore
+
+# OS specific files
+.DS_Store
+Thumbs.db
