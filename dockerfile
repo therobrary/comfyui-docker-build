@@ -43,10 +43,10 @@ ENV PATH="/opt/venv/bin:$PATH"
 # Upgrade pip
 RUN pip install --upgrade pip wheel setuptools
 
-# Clone ComfyUI v0.3.42
+# Clone ComfyUI v0.3.43
 RUN git clone https://github.com/comfyanonymous/ComfyUI.git /app/ComfyUI && \
     cd /app/ComfyUI && \
-    git checkout v0.3.42
+    git checkout v0.3.43
 
 # Set ComfyUI as working directory
 WORKDIR /app/ComfyUI
